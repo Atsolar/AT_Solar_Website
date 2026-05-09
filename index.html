@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT Solar - Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            /* यह एक Placeholder पृष्ठभूमि इमेज है। आप इसे बदल सकते हैं। */
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); 
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .logo-section {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* --- लोगो इमेज का नया साइज़ यहाँ सेट किया गया है --- */
+        .logo-img {
+            height: 70px;         /* ऊँचाई 60px से 80px के बीच (70px आदर्श है) */
+            max-width: 300px;     /* अधिकतम चौड़ाई 300px तक सीमित */
+            width: auto;          /* इससे लोगो अपनी असली शेप (Aspect Ratio) में रहेगा */
+        }
+
+        .content-box {
+            background: rgba(255, 255, 255, 0.1);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            padding: 50px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #4CAF50; /* Green accent */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .notify-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .notify-btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Mobile responsiveness - मोबाइल पर लोगो को थोड़ा छोटा दिखाने के लिए */
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+            .content-box { padding: 30px; }
+            .logo-section { top: 15px; left: 15px; }
+            .logo-img { height: 50px; max-width: 200px; } /* मोबाइल के लिए साइज़ */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-section">
+            <!-- अपनी पारदर्शी (transparent) लोगो इमेज का नाम यहाँ रखें -->
+            <img src="image\logo1.png" alt="AT Solar Logo" class="logo-img">
+        </div>
+
+        <div class="content-box">
+            <h1>COMING SOON</h1>
+            <h2>कमिंग सून</h2>
+            <p>हम आपकी घर की ऊर्जा को स्मार्ट और हरा बनाने के लिए अंतिम स्पर्श दे रहे हैं।</p>
+            <a href="#" class="notify-btn">अपडेट प्राप्त करें</a>
+        </div>
+    </div>
+
+</body>
+</html>
