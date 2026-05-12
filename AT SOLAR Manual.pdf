@@ -1,0 +1,79 @@
+Quick Configuration Guide
+
+Datalogger models:
+SMeter-XX Series
+SBoost-XX Series
+SPlug-XX Series
+SRelay-XX Series
+SDatalog-BWiFi-XX Series
+
+1. Step: Datalogger installation
+1.1. Power on the machine to ensure that it can be used normally;
+1.2. Take out the WiFi datalogger, plug the datalogger into the machine, and let the machine supply power to it.;
+1.3. Verify that the datalogger is successfully powered on, and then proceed to Step 2.
+
+2. Step: Download the AT SOLAR Cloud APP
+2.1. You can search for AT SOLAR Cloud in Apple Store or Google Play to download.. 
+
+3. Step: Sign in
+3.1. Run the AT SOLAR Cloud APP to go to the registration page;
+3.2. Fill in the registration information according to the prompts on the page and click 
+
+
+
+4. Step: Add plant
+4.1. After entering the APP, click "Plant" to enter the page of adding plant;
+4.2. Click the Add button to enter the plant information filling page;
+4.3. Enter the plant information as prompted;
+4.4. Click "Save" to add the plant successfully.
+
+
+
+
+
+
+
+
+
+5. Step: Add datalogger
+5.1. Make sure your phone and AT SOLAR Cloud APP location permissions and Bluetooth permissions are turned on!
+5.2. Click the Add button in the upper right corner of the "Home" page to enter the add datalogger page;
+5.3. Scan the datalogger QR code, manually enter the collector serial number, or click the device icon in the list to add a datalogger;
+5.4. Confirm that the serial number of the datalogger is correct and click "OK" to enter the step6.
+
+
+
+
+
+
+
+
+
+
+
+
+6. Step: Network mode configuration
+
+6.1. Select or enter the WiFi name and password to connect to the network;
+6.2. Click "Next" to enter the next page, please wait a few seconds to successfully distribute the network;
+Note: If the network distribution is not successful, please check whether the mobile phone positioning permission has been turned on, whether the Bluetooth permission has been turned on, confirm it is correct, please follow the prompts again.
+
+
+
+7. Step: Check the status of the datalogger
+7.1. Return to the home page, click "plant" to enter the plant display page, select the plant and click to enter the equipment view page;
+7.2. Click datalogger to view the datalogger status page and drop down the page to refresh the page. If green Online is displayed in the upper right corner of the datalogger, the datalogger is in use. If Offline is displayed in gray, the datalogger is not in use;
+7.3. Click the "Device" page again, wait for two minutes, and pull down to refresh the page to display the plant device list;
+
+
+Note: If it does not show, please contact the product after-sales for processing.
+
+
+
+Appendix I: Frequently asked questions
+1. What is the router frequency band supported by the datalogger?
+Only 2.4GHz band WiFi signals are supported, not 5GHz; Check whether the current frequency band of your router includes 2.4GHz.
+2. Why does the distribution network fail?
+Phone and AT SOLAR Cloud APP location permissions and Bluetooth permissions may not be successfully turned on.
+
+
